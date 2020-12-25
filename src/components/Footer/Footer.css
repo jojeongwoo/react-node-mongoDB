@@ -1,0 +1,71 @@
+.footer-contact {
+  margin-right: 90px;
+  margin-top: 35px;
+}
+
+.footer-Logo {
+  resize: both;
+  height: 40px;
+  margin-top: 16px;
+  position: relative;
+  right: 3%;
+}
+
+.footer-infomation {
+  margin-left: -140px;
+  margin-bottom: 10px;
+}
+
+.footer-infomation li {
+  list-style: none;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.top-color {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 350px;
+  margin-top: -50px;
+}
+
+.contact-text {
+  color: #90caf9;
+}
+
+.closed {
+  margin-top: 8px;
+}
+
+.consulting {
+  margin-top: 8px;
+}
+
+.contact-here {
+  font-size: 14px;
+}
+
+.contact-icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.top-color .txt {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.bottom-color {
+  text-align: center;
+  background: #000000b8;
+  color: white;
+  height: 50px;
+  line-height: 50px;
+}
+
+.address {
+  display: flex;
+}

@@ -1,0 +1,82 @@
+.loginForm{
+  width: 100%;
+  height: 500px;
+  margin-top: 40px;
+  text-align: center;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.09);
+}
+
+.loginForm h1{
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 55px;
+  font-size: 33px;
+}
+
+.input{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input > input{
+  margin-top:10px;
+  width: 300px;
+  height: 40px;
+  border-bottom: 1px solid #00000021;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  outline: 0;
+}
+
+.loginForm #loginBtn {
+  margin-top: 30px;
+  height: 50px;
+  border-radius: 150px;
+  width: 300px;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  background-color: #98defc;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.loginForm #loginBtn:hover {
+  background-color: #0089ff;
+  transition: ease 0.5s;
+}
+
+.loginForm h4{
+  text-align: center;
+  padding-top: 10px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-right: 10px;
+}
+
+.loginForm_h{
+  display: flex;
+  justify-content: center;
+  padding-left: 25px; 
+  padding-top: 16px;
+  text-decoration: none;
+}
+
+.loginForm_h #h4::after{
+  content: '';
+  border-right: 1px solid #00000052;
+  padding-left: 10px;
+}
+
+.loginForm_h a{
+  color: black;
+  text-decoration: none;
+}
+
+.h1 {
+  display: flex;
+  justify-content: center;
+}

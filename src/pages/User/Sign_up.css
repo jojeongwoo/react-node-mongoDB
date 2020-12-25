@@ -1,0 +1,181 @@
+.body-color{
+  padding: 20px 0px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.09);
+  height: 70vh;
+  margin-top: 5%;
+}
+
+.SignUp-wrap{
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+  border-radius: 3%;
+  border: 2px solid #00bcd452;
+}
+
+.SignUp-wrap .title{
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 24px;
+  font-weight: 700;
+  margin-block-start: 0;
+  color: #1565c0;
+}
+
+.SignUp-wrap .form{
+  width: 100%;
+}
+
+.SignUp-wrap .form .input_field{
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SignUp-wrap .form .input_field label{
+  width: 200px;
+  margin-right: 170px;
+  font-size: 14px;
+  color: #757575;
+  margin-bottom: 10px;
+}
+
+.SignUp-wrap .form .input_field .field{
+  width: 350px;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+/* .SignUp-wrap .form .input_field .custom_select{
+  position: relative;
+  width: 100%;
+  height: 37px;
+}
+
+.SignUp-wrap .form .input_field .custom_select select{
+  border: 1px solid #d5dbd5;
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  height: 100%;
+  padding: 8px 10px;
+  border-radius: 3px;
+  outline: none;
+} */
+
+/* .SignUp-wrap .form .input_field .custom_select::before{
+  content: '';
+  position: absolute;
+  top: 14px;
+  right: 10px;
+  border: 8px solid;
+  pointer-events: none;
+  border-color: #90caf9 transparent transparent transparent;
+}
+
+.SignUp-wrap .form .input_field .field:focus,
+.SignUp-wrap .form .input_field select:focus{
+  border:1px solid #90caf9;
+} */
+
+#error {
+  font-size: 14px;
+  margin-block-end: 0;
+  margin-block-start: 8px;
+  right: 24%;
+  position: relative;
+  font-weight: 600;
+  color: #1565c0;
+}
+
+.SignUp-wrap .form .input_field p{
+  font-size: 14px;
+  color: #757575;
+}
+
+.SignUp-wrap .form .input_field .check{
+  width: 15px;
+  height: 15px;
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+.SignUp-wrap .form .input_field .check input[type="checkbox"]{
+  position: absolute;
+  top: 0;
+  left: 1px;
+  opacity: 0;
+}
+
+.SignUp-wrap .form .input_field .check .checkmark{
+  width: 15px;
+  height: 15px;
+  border: 1px solid #90caf9;
+  display: block;
+  position: relative;
+}
+
+.SignUp-wrap .form .terms .check .checkmark::before{
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 3px;
+  width: 5px;
+  height: 2px;
+  border: 2px solid;
+  border-color: transparent transparent #fff #fff;
+  transform: rotate(-45deg);
+  display: none;
+}
+
+.SignUp-wrap .form .terms .check input[type="checkbox"]:checked ~ .checkmark{
+  background: #90caf9;
+}
+
+.SignUp-wrap .form .terms .check input[type="checkbox"]:checked ~ 
+.checkmark::before{
+  display: block;
+}
+
+.SignUp-wrap .form .input_field .btn{
+  width: 74%;
+  height: 40px;
+  background-color: #90caf9;
+  outline: none;
+  border: 0;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.SignUp-wrap .form .input_field:last-child{
+  margin-bottom: 0;
+}
+
+.SignUp-wrap .form .input_field .btn:hover{
+  background-color:#0089ff;
+  transition: ease 0.5s;
+}
+
+.terms {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 13%;
+}
+
+@media screen and (max-width: 1536px) {
+  .body-color {
+    height: 130vh;
+  }
+}

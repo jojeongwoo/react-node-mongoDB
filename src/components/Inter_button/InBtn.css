@@ -1,0 +1,27 @@
+.load {
+  width: 60%;
+  margin: 0 auto;
+  border-bottom: 1px solid #ccc;
+}
+
+.load > h1 {
+  font-size: 45px;
+  color: #333;
+  font-weight: bold;
+  margin-block-end: 20px;
+}
+
+.load > p {
+  margin-top: 20px;
+  font-size: 23px;
+  color: #666;
+  margin-bottom: 40px;
+  margin-block-start: 0;
+}
+
+.load_buttons {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-left: 27%;
+}

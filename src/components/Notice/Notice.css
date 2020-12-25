@@ -1,0 +1,86 @@
+.notice-wrap {
+  background-color: #eee;
+  height: 475px;
+}
+
+.notice-header {
+  margin: 0 14vw;
+  height: 25%;
+}
+
+.notice-header h1 {
+  margin-block-end: 0;
+  padding-top: 35px;
+}
+
+.notice-box {
+  height: 45%;
+  margin-top: 50px;
+}
+
+.notice-box .box-wrap {
+  height: 190px;
+  margin: 0px 13vw;
+  border: 1px solid #0000002b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.notice-text {
+  margin-right: 40px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.notice-text:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.notice-day {
+  text-align: center;
+  border: 1px solid;
+  height: 110px;
+  width: 110px;
+  margin-left: 35px;
+}
+
+.month {
+  line-height: 75px;
+  font-size: 34px;
+  font-weight: 700;
+  color: #5d3d0c;
+}
+
+.date {
+  font-size: 10px;
+  color: #999;
+}
+
+.notice-dot {
+  margin: 0 13vw;
+  margin-top: -8px;
+  text-align: center;
+  line-height: 2vw;
+}
+
+.notice-dot li {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.notice-dot li:hover {
+  color: black;
+}
+
+.dot {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  color: #00000069;
+}

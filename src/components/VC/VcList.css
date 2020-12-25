@@ -1,0 +1,63 @@
+.vcBox {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.09);
+  height: 125vh;
+}
+
+.vc {
+  height: 100vh;
+  max-width: 400px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 3%;
+  border: 2px solid #00000045;
+  margin-top: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.vc::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}
+
+.data_box {
+  border-radius: 3%;
+  border: 1px solid #0000003b;
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.box_header {
+  text-align: center;
+  background-color: #00bcd452;
+  color: white;
+  font-weight: 600;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3% 0;
+}
+
+.box_section {
+  position: relative;
+  left: 10%;
+  padding: 3%;
+  top: 5%;
+}
+
+.box_section > div {
+  margin-bottom: 5px;
+  color: #000000c7;
+}
+
+.vc_text {
+  text-align: center;
+}
+
+.test1 {
+  position: absolute;
+}
